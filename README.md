@@ -135,11 +135,12 @@ The first difference is that the Schema of the String representation of the soft
 
 Jmix does not support this schema anymore. Instead, Jmix offers the `io.jmix.core.IdSerialization` bean, which has the same functionality but the schema looks different. Examples:
 
-```
-app_UuidEntity."4e4c5ca2-9a6e-43aa-8e67-3572b674f7c0"
-app_LongIdEntity.1234  
-app_CompositeKeyEntity.{"entityId":10,"tenant":"abc"}
-```
+| |
+| :--- |
+|app_UuidEntity."4e4c5ca2-9a6e-43aa-8e67-3572b674f7c0"|
+|app_LongIdEntity.1234|
+|app_CompositeKeyEntity.{"entityId":10,"tenant":"abc"}|
+
 
 ### Entity Interface Support
 
