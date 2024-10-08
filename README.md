@@ -86,7 +86,7 @@ In order to use a soft reference as a Table column, there is a class `de.diedavi
 
 Usage:
 
-```
+```java
 @Subscribe
 protected void onInit(InitEvent event) {
     myTable.addGeneratedColumn("softReferenceColumnId",
@@ -107,7 +107,7 @@ In order to render a soft reference into a form, there is a Spring bean `de.died
 
 Usage (in an editor screen):
 
-```
+```java
 @Inject
 private SoftReferenceFormFieldGenerator softReferenceFormFieldGenerator;
 
